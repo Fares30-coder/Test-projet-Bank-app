@@ -167,7 +167,6 @@ def transfer():
 
 def main():
     #app.run(threaded=True)
-    app.run(threaded=True, host="0.0.0.0", port= 8080)
     app.run(debug=True)
 
 
